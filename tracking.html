@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traking Shipment</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="create.html">Create Shipment</a>
+        <a href="tracking.html">Track Shipment</a>
+        <a href="pickups.html">Pickups Dashboard</a>
+        <a href="delivery.html">Delivery Dashboard</a>
+        <a href="loardstock.html">Loard stock</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <center>
+            <h2>Track Shipment</h2>
+        </center>
+
+    </header>
+
+    <main>
+
+        <section id="tracking">
+            <center>
+                <span>The speed and safe courier experince at <abbr title="True Way Logistics">TW Logstics</abbr>
+                </span> <br>
+                <label for="shipment">Enter Shipment Number</label> <br>
+                <input type="number" name="shipment" id="shipment" placeholder="1234567">
+                <button>Track</button>
+            </center>
+            <hr>
+        </section>
+
+        <section id="trcking-status">
+
+            <h4>Shipment Details</h4>
+            <div>
+                <h5>Consignor </h5>
+                <p>Elon Musk</p>
+                <p>mo.20, varanasi, USA, 234517</p>
+                <p>76767878987</p>
+            </div>
+
+            <div>
+                <h5>Consignee</h5>
+                <p>Mark Zuckerberg</p>
+                <p>mo.12 Marks Street, Newyork,101232</p>
+                <p>09809891</p>
+            </div>
+
+            <div>
+                <h5>Package Details</h5>
+                <p>Total Packages : 5</p>
+                <p>Total Weight : 67 kg</p>
+            </div>
+
+        </section>
+
+        <section>
+            <table border="1">
+                <caption>Your shipment status is here</caption>
+                <thead>
+                    <tr>
+                        <th>Boocked on</th>
+                        <th>Dispatched</th>
+                        <th>Current Status</th>
+                        <th><abbr title="Expected Delivery Date">EDD</abbr></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12 sep 2026</td>
+                        <td>13 sep 2026</td>
+                        <td>In Transit</td>
+                        <td>16 sep 2026</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <BUtton>Download Shipment PDF</BUtton>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Arivukarasan. All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

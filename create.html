@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Shipment</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="create.html">Create Shipment</a>
+        <a href="tracking.html">Track Shipment</a>
+        <a href="pickups.html">Pickups Dashboard</a>
+        <a href="delivery.html">Delivery Dashboard</a>
+        <a href="loardstock.html">Loard stock</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <!-- Creating Shipment -->
+        <section id="create">
+            <h2>Create Shipment</h2>
+            <hr>
+
+            <!-- consignor Details -->
+            <div id="consignor">
+                <h3>CONSIGNOR DETAILS</h3>
+                <label for="consignor-name">Consignor Name:</label>
+                <input type="text" name="consignor-name" id="consignor-name">
+
+                <label for="consignor-address">Address:</label>
+                <textarea name="consignor-address" id="consignor-address"></textarea>
+
+                <label for="consignor-pincode">Pincode:</label>
+                <input type="number" name="pincode-f" id="pincode-f">
+
+                <label for="consignor-contactnumber">Contact Number:</label>
+                <input type="tel" name="consignor-contactnumber" id="consignor-contactnumber">
+                <br>
+                <button>Save</button>
+                <button>Edit</button>
+            </div>
+            <hr>
+
+            <div id="receiver">
+                <h3>CONSIGNEE DETAILS</h3>
+
+                <label for="consignee">Consignee Name:</label>
+                <input type="text" name="consignee" id="consignee">
+
+                <label for="consignee">Address:</label>
+                <textarea name="consignee" id="consignee"></textarea>
+
+                <label for="consignee-pincode">Pincode:</label>
+                <input type="number" name="pincode-t" id="pincode-t">
+
+                <label for="consignee-contactnumber">Contact Number:</label>
+                <input type="tel" name="consignee-contactnumber" id="consignee-contactnumber">
+
+                <br>
+                <button>Save</button>
+                <button>Edit</button>
+            </div>
+            <hr>
+
+            <div id="consignment">
+                <h3>PACKAGE DETAILS</h3>
+
+                <div>
+                    <h4>Volume (LxBxH)</h4>
+                    <div>
+                        <input type="number" name="length" id="length" placeholder="Length">
+                        <input type="number" name="breadth" id="breadth" placeholder="Breadth">
+                        <input type="number" name="height" id="height" placeholder="Height">
+                        <input type="number" name="packages" id="packages" placeholder="# Pkgs">
+
+                        <button>add</button>
+                    </div>
+
+                    <label for="weight">Total Weight:</label>
+                    <input type="number" name="weight" id="weight" placeholder="Weight">
+                </div>
+
+            </div>
+        </section>
+        <hr>
+
+        <section id="save-shipment">
+            <button>Save Shipment</button>
+            <button>Create Shipmant</button>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Arivukarasan. All rights reserved</p>
+    </footer>
+
+
+</body>
+
+</html>
