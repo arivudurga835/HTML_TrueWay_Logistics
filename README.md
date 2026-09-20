@@ -23,6 +23,17 @@ The project focuses on using HTML forms, tables, links, and multiple pages to cr
 * Images
 * Basic webpage structure
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/true-way-home.png)
+
+### Contact Page
+![Contact Page](screenshots/true-way-contact.png)
+
+###Tracking Page
+![Tracking Page](screenshots/true-way-tracking.png)
+
 ## 🛠️ Technologies Used
 
 * HTML5
