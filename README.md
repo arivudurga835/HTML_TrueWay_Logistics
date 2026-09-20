@@ -26,13 +26,13 @@ The project focuses on using HTML forms, tables, links, and multiple pages to cr
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/true-way-home.png)
+![Home Page](true-way-home.png)
 
 ### Contact Page
-![Contact Page](screenshots/true-way-contact.png)
+![Contact Page](true-way-contact.png)
 
-###Tracking Page
-![Tracking Page](screenshots/true-way-tracking.png)
+### Tracking Page
+![Tracking Page](true-way-tracking.png)
 
 ## 🛠️ Technologies Used
 
